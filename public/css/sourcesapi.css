@@ -1,0 +1,11 @@
+.selectsBoxes {
+    padding-left: 40px;
+}
+
+button#buttonDownloadReport {
+    margin-bottom: -25px;
+    margin-left: 40px;
+}
+input#minifiedCB {
+    margin-top: 25px;
+}

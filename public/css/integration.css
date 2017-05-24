@@ -1,0 +1,121 @@
+html {
+    overflow-y: scroll;
+}
+
+.tab-content {
+    margin-left: 18px;
+}
+
+table#tableDescription tr td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.container .row:nth-child(2)  {
+    margin-top: 40px;
+}
+
+table.tableIntegration {
+    width: 100%;
+    border: 1px solid #ddd;
+	margin-top: -30px;
+}
+table.tableIntegration tr td, th {
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+
+input.form-control.input-sm {
+    margin-left: 10px;
+}
+img.modalIcon5 {
+    width: 26px;
+}
+
+table.tableIntegration thead tr {
+    background-color:#01A9DB;
+	color: black;
+}
+
+table.tableIntegration tr td {
+    color: #41a6ff;
+    font-family: helvetica, sans-serif;
+}
+td.iconEdit {
+    text-align: center;
+}
+.iconEdit img {
+    cursor: pointer;
+}
+
+input#idModal {
+    width: 96px;
+}
+#openmodalsave {
+	display: none;
+}
+#openmodalsaveSource {
+	display: none;
+}
+#rowSources {
+	margin-top: 40px;
+}
+.col-md-12.tableCol12 {
+    min-height: 600px;
+	margin-top: 30px;
+}
+.iconExcel {
+    width: 43px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 34px;
+    z-index: 95;
+    right: 25px;
+}
+h3.panel-title.simple-title {
+    margin-bottom: 21px;
+}
+
+.table-condensed thead tr:first-child {
+    display: none;
+}
+
+.textareamodaluser {
+    height: 170px;
+    width: 100%;
+    resize: none;
+}
+
+button#openmodalsaveUser {
+    display: none;
+}
+
+div#rowUsers {
+    margin-top: 40px;
+}
+
+div#rowDomains {
+    margin-top: 40px;
+}
+
+img.modalIcon44 {
+    width: 18px;
+}
+img.modalIcon4 {
+    width: 20px;
+}
+
+button#newDomainButton {
+    float: right;
+}
+table#tableRisqIq {
+    margin-top: -16px;
+}
+.countries {
+    width: 647px;
+    word-wrap: break-word;
+}
+.sources {
+    width: 228px;
+    word-wrap: break-word;
+}

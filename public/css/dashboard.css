@@ -1,0 +1,154 @@
+.greybox {
+	margin-bottom: 15px;
+	/* margin-left: 15px;
+	 width: 48%; */
+	min-height: 370px;
+	background-color: white;
+	margin: auto;
+
+}
+
+#greybox1 {
+	padding-left: 0px; 
+}
+
+.titleGreyBox {
+	text-align: center;
+	font-size: 13pt;
+	margin-bottom: 45px;
+}
+
+/* KPI OVERVIEW */
+#tableDash {
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 60px;
+}
+
+.colDash {
+	text-align: center;
+	font-size: 10pt;
+	font-family: "Lato", Light, sans-serif;
+	font-weight: 400;
+}
+.colLeft {
+	text-align: left;
+	font-size: 10pt;
+	font-family: "Lato", Light, sans-serif;
+	font-weight: 400;
+}
+#tableDash td {
+	padding: 8px;
+}
+
+/* CHART DASH */
+#chartDashboard {
+	margin-left: 25px; 
+}
+.graphicsLabel {
+	display: inline-block;
+	font-size: 11px;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+.circle {
+	border-radius: 0.5em;
+	display: inline-block;
+	height: 0.5em;
+	width: 0.5em;
+	margin-bottom: 0;
+	margin-left: 20px;
+	cursor: pointer;
+}
+#circleClicks {
+    margin-left: 45px;
+}
+
+/* GERAL */
+
+.greybox {
+	border: 1px solid #E2E2E2;
+}
+.titleGreyBox {
+	color: #989898;
+}
+
+/* KPI OVERVIEW */
+#tableDash {
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+}
+#lastRow {
+	border-bottom-color: transparent;
+}
+.colDash {
+	color: #989898;
+}
+.colLeft {
+	color: #989898;
+}
+
+/* CHART DASH */
+
+.graphicsLabel {
+	color: black;
+}
+
+#circleClicks {
+	background-color: #2abaff;
+}
+#circleConversions {
+	background-color: #005AD4;
+}
+#circleCr {
+	background-color: #91A3B0;
+}
+#circleRevenue {
+	background-color: #0095B6;
+}
+
+.greybox {
+	display: none;
+}
+
+.lineTable {
+    border-bottom: 1px solid #E2E2E2;
+}
+#tableDash tr.lineTable:last-child td {
+    font-weight: 700;
+}
+
+.a {
+	display: none;
+}
+
+#plabeldes {
+    font-size: 10px;
+}
+
+td.colDash2 {
+    color: #989898;
+    font-size: 16px;
+}
+
+#tableDash2 {
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+}
+#tableDash2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+#tableDash2 td {
+	padding: 8px;
+}
+
+.pLabelComments {
+    width: 300px;
+    margin-top: -8px;
+    margin-left: 8px;
+    font-size: 10px;
+}

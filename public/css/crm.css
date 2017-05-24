@@ -1,0 +1,186 @@
+p.titles {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 28px;
+}
+
+#selectboxClients {
+    width: 200px;
+    height: 31px;
+}
+
+#rowInfoAggr {
+    margin-top: 100px;
+    width: 1131px;
+    margin-left: 2px;
+}
+
+.selectsRow {
+	width: 254px;
+    height: 31px;
+}
+
+.textareacrm {
+    width: 254px;
+    height: 258px;
+    resize: none;
+}
+
+#rowInfoAggr {
+	display: none;
+	
+}
+
+#createNow {
+    margin-top: 253px;
+}
+
+#editNow {
+    margin-top: 253px;
+}
+
+#status2 {
+    margin-top: 100px;
+    display: none;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    background-image: url(../img/status.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin: -100px 0 0 -100px; */
+}
+
+
+#rowchartAggr {
+	display: none;
+}
+
+.greybox {
+	margin-bottom: 15px;
+	/* margin-left: 15px;
+	 width: 48%; */
+	min-height: 370px;
+	background-color: white;
+	margin: auto;
+
+}
+
+#greybox1 {
+	padding-left: 0px; 
+}
+
+.titleGreyBox {
+	text-align: center;
+	font-size: 13pt;
+	margin-bottom: 45px;
+}
+
+/* KPI OVERVIEW */
+#tableDash {
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 60px;
+}
+
+.colDash {
+	text-align: center;
+	font-size: 10pt;
+	font-family: "Lato", Light, sans-serif;
+	font-weight: 400;
+}
+.colLeft {
+	text-align: left;
+	font-size: 10pt;
+	font-family: "Lato", Light, sans-serif;
+	font-weight: 400;
+}
+#tableDash td {
+	padding: 8px;
+}
+
+/* CHART DASH */
+#chartDashboard {
+	margin-left: 25px; 
+}
+.graphicsLabel {
+	display: inline-block;
+	font-size: 11px;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+.circle {
+	border-radius: 0.5em;
+	display: inline-block;
+	height: 0.5em;
+	width: 0.5em;
+	margin-bottom: 0;
+	margin-left: 20px;
+	cursor: pointer;
+}
+#circleClicks {
+    margin-left: 45px;
+}
+
+/* GERAL */
+
+.greybox {
+	border: 1px solid #E2E2E2;
+}
+.titleGreyBox {
+	color: #989898;
+}
+
+/* KPI OVERVIEW */
+#tableDash {
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;
+}
+#lastRow {
+	border-bottom-color: transparent;
+}
+.colDash {
+	color: #989898;
+}
+.colLeft {
+	color: #989898;
+}
+
+/* CHART DASH */
+
+.graphicsLabel {
+	color: black;
+}
+
+#circleClicks {
+	background-color: #2abaff;
+}
+#circleConversions {
+	background-color: #005AD4;
+}
+#circleCr {
+	background-color: #91A3B0;
+}
+#circleRevenue {
+	background-color: #0095B6;
+}
+
+.lineTable {
+    border-bottom: 1px solid #E2E2E2;
+}
+tr.lineTable:last-child td {
+    font-weight: 700;
+}
+
+
+#plabeldes {
+    font-size: 10px;
+}
+
+#ppp {
+	margin-left: 3px;
+    margin-top: 50px;
+}

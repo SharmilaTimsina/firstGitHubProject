@@ -1,0 +1,387 @@
+#myInput {
+    background-image: url(/img/searchicon.png);
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.selectsMultiPleSearch {
+    width: 100%;
+}
+
+
+
+#myUL .resultsSearch {
+    padding: 0px;
+    text-align: left;
+    padding-left: 10px;
+    cursor: pointer;
+    color: grey;
+    font-weight: lighter;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* height: 741px; */
+    /*overflow-y: scroll;*/
+    /* min-height: 124px; */
+    max-height: 741px;
+}
+
+#myUL a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  display: block
+}
+
+#myUL a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#myUL a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+button#resetFilters {
+    padding: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    float: right;
+}
+
+
+.njumplistbadnjump { 
+    background-image: url(/img/njumppage/youmesseditup.svg);
+    background-position: calc(100% - 13px);
+    background-repeat: no-repeat;
+    background-size: 19px 60px;
+}
+
+
+.divNjumplist {
+  width: 70%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+#myInput {
+  background-image: url('/img/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#myUL2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* height: 741px; */
+    /*overflow-y: scroll;*/
+    /* min-height: 124px; */
+    max-height: 741px;
+}
+
+#myUL2 li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  display: block
+}
+
+#myUL2 li a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#myUL2 li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* height: 741px; */
+    /*overflow-y: scroll;*/
+    /* min-height: 124px; */
+    max-height: 741px;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  display: block
+}
+
+#myUL li a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+#myUL .resultsSearch {
+    padding: 0px;
+    text-align: left;
+    padding-left: 10px;
+    cursor: pointer;
+    color: grey; 
+    font-weight: lighter;
+}
+a.resultsSearch.selected {
+    background-color: mediumseagreen;
+    color: white;
+}
+  
+
+#myUL .resultsSearch {
+    padding: 0px;
+    text-align: left;
+    padding-left: 10px;
+    cursor: pointer;
+    color: grey;
+    font-weight: 900;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* height: 741px; */
+    /*overflow-y: scroll;*/
+    /* min-height: 124px; */
+    max-height: 741px;
+}
+
+#myUL a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  display: block
+}
+
+#myUL a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#myUL a:hover:not(.header) {
+  background-color: #eee;
+}
+
+.firstroeClassInfoLeft {
+    border-bottom: 1px solid black;
+    margin-bottom: 3px;
+    margin-left: 0px;
+    margin-right: -1px;
+    line-height: 21px;
+}
+
+
+
+#spinner {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#spinner li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  display: block
+}
+
+#spinner li a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#spinner li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+#sidebar-wrapper .chosen-drop {
+    width: 243px;
+}
+
+
+
+img.iconsDivObject2.favoriteStar {
+    width: 38px;
+    cursor: pointer;
+}
+
+
+#topLinesRow {
+    background-color: #4f4f4f;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 40px;
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+
+div#njumpGaneratedName {
+    margin-left: 20px;
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.linesM {
+    padding-bottom: 3px;
+    padding-top: 10px;
+    padding-left: 29px;
+    padding-right: 37px;
+}
+
+.linesM:nth-of-type(odd) {
+    background-color: #C4C4C4;
+}
+
+.linesM:nth-of-type(even) {
+    background-color: #EAEBEB;
+}
+
+#DivForLines {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.lineBorder {
+    border-bottom: 1px solid black;
+}
+
+.carriersString {
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.titlesLines {
+    font-weight: 700;
+}
+
+input.inputProportion {
+    border-radius: 5px;
+    box-shadow: none;
+    border-style: ridge;
+    width: 40%;
+    outline: 0px;
+    padding-left: 5px;
+    margin-left: -1px;
+    padding-bottom: 0px;
+    /* margin-left: 10px; */
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+img.iconsDivObject51 {
+    width: 19px;
+    margin-left: 10px;
+}
+
+img.iconsDivObject50.badNjump {
+    width: 15px;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+
+.notifyjs-corner {
+    margin-left: -20px;
+}
+
+.statusDivObject {
+    width: 20px;
+    height: 20px;
+    background-color: lime;
+    border-radius: 10px;
+    /* float: right; */
+    margin-top: 9px;
+    /* margin-right: 29px; */
+    border: 2px solid white;
+}
+
+.divsInfoRow {
+    margin-top: 9px;
+}
+
+#resetFilters2 {
+    padding: 0px;
+    padding-left: 2px;
+    padding-right: 2px;
+    float: right;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    background-color: lightgrey;
+    border-color: lightgrey;
+    color: grey;
+    padding-top: 2px;
+}
+
+.favoritenjump {
+    background-image: url(/img/njumppage/star_power_filled_m.svg);
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: 19px 60px;
+    padding-left: 26px;
+}
+
+.resultRows {
+    text-align: center;
+    font-size: 10px;
+    padding-top: -11px;
+    margin: 0px;
+}

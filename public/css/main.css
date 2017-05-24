@@ -1,0 +1,244 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,900);
+/* Preloader */
+html,body{
+    height: 100%;
+    font-family: helvetica, sans-serif;
+}
+.centertext {
+    text-align: center;
+}
+.simple-label { 
+    color: #D1AF74;
+    text-decoration: none;
+}
+.simple-title {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+}
+#preloader {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+.cover {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/status.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+.spinner {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/status.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.navbar-brand img{
+    width: 55px;
+}
+.navbar-brand-home img{
+    width: 93px;
+    padding-top: 45px;
+}
+
+.navbar-brand-home-2 img{
+    width: 93px;
+}
+
+.beta{
+    font-size: 14px;
+}
+.blue{
+    color: #41a6ff;
+}
+.navbar-inverse{
+    background: #000;
+}
+section.home-item{
+    margin-top: 31px;
+}
+div.col-sm-7.five-three {
+width: 60% !important;
+}
+
+div.col-sm-5.five-two {
+  width: 40% !important;
+}
+.sky-form .label{
+    color: #41a6ff;
+    font-weight: bold;
+    font-family: helvetica, sans-serif;
+    font-size: 15px;
+}
+.label-filter{
+    margin-right: 30px;
+}
+
+table.table th{
+    color: #41a6ff;
+    font-family: helvetica, sans-serif;
+}
+
+table.table tr td.cb{
+    font-family: helvetica, sans-serif;
+    font-weight: bold;
+}
+.table-striped>tbody>tr:nth-child(even){
+    background: #f1f5f8
+}
+.form-control{
+    border-radius: 0px;
+}
+.home-title{
+    color: #000;
+    font-size: 66px;
+    text-align: left;
+    line-height: 79px;
+    font-family: lato, sans-serif;
+    font-weight: 900;
+}
+.sub-title{
+    color: #000;
+    line-height: 61px;
+    text-align: left;
+    font-size: 51px;
+    letter-spacing: 1px;
+    font-family: lato, sans-serif;
+    font-weight: 300;
+}
+.home-text{
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: lato, sans-serif;
+}
+.form-title{
+    color: #fff;
+    background: #000;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.home-content{
+    margin-top: 100px;
+    padding: 30px;
+}
+.home-form{
+    margin-top: 70px;
+}
+#wrap{
+    min-height: 90%;
+}
+.navbar-form{
+    margin: 33px 0px;
+}
+
+.btn-primary{
+    background: #41a6ff;
+    padding: 6px 20px;
+}
+.btn-send{
+    padding: 15px 40px;
+    font-weight:bold;
+}
+.btn-lg2{
+    padding: 10px 20px;
+}
+footer.footer{
+    font-size: 10px;
+    margin: 20px 0px;
+    line-height: 12px;
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+
+/*2nd Page*/
+.sky-form .radio i, .sky-form .checkbox i {
+width: 15px;
+height: 15px;
+border-width: 1px;
+}
+.sky-form .checkbox input + i:after{
+    top: 1px;
+}
+.btn-dwnld{
+    background: url(../img/btn.png)no-repeat;
+    width: 101%;
+    height: 42px;
+    cursor: pointer;
+}
+.sky-form .select select,.sky-form .input input{
+    height: 42px;
+    font-size: 13px;
+}
+.sky-form .select i{
+    /*top: 19px;*/
+    /*background: green;*/
+    top: 13px;
+    height: 16.5px;
+}
+.sky-form .icon-append{
+    font-size: 12px;
+    top: 6px;
+}
+.sky-form section{
+    margin-bottom: 10px;
+}
+
+.simple-label { 
+    color: #639ABD;
+    text-decoration: none;
+}
+
+.simple-title {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+}
+
+.navbar-brand {
+				float: left;
+				padding: 12px;
+				font-size: 18px;
+				line-height: 20px;
+				height: 50px;
+			}

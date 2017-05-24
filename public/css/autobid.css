@@ -1,0 +1,112 @@
+p.titles {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+
+table#tableCampaignBid thead tr {
+    background-color: #01A9DB;
+    color: black;
+    font-weight: 700;
+}
+
+button#addAccountButtonOpenModal {
+    margin-right: 40px;
+}
+
+table#tableCampaignBid tr td {
+    padding: 5px;
+}
+
+.row.userside {
+    margin-top: 50px;
+}
+
+img.modalIcon {
+    width: 21px;
+}
+
+#tableCampaignBid tr > td:nth-child(9) {
+    text-align: center;
+}
+#tableCampaignBid tr > td:nth-child(10) {
+    text-align: center;
+}
+
+#tableCampaignBid tr > td:nth-child(11) {
+    text-align: center;
+}
+
+#tableCampaignBid tr > td:nth-child(12) {
+    text-align: center;
+}
+
+#tableCampaignBid tr > td:nth-child(13) {
+    text-align: center;
+	cursor: pointer;
+}
+
+select[disabled] {
+    background-color: rgb(235, 235, 228);
+}
+
+button#deletecampaignButtonModal {
+    margin-right: 20px;
+}
+
+#buttonrefresh {
+	margin-bottom: 20px;
+	display: none;
+}
+
+.glyphicon-refresh-animate {
+  -animation: spin .7s infinite linear;
+  -webkit-animation: spin2 .7s infinite linear;
+  margin-top: 1px;
+  margin-right: 10px;
+}
+
+@-webkit-keyframes spin2 {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
+
+  to {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+.savingEdit {
+  display: none;
+}
+
+img.imagestatus {
+    width: 11px;
+}
+
+.form-group.formgroupinvest {
+    margin-left: 50px;
+}
+
+button#downloadreport {
+    margin-bottom: -26px;
+}
+
+img.imagestatus2 {
+    width: 18px;
+}
+
+img.imagestatus3 {
+    width: 20px;
+}

@@ -1,0 +1,1419 @@
+
+.containerf {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/img/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#myUL2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* height: 741px; */
+    /*overflow-y: scroll;*/
+    /* min-height: 124px; */
+    max-height: 741px;
+}
+
+#globalnamevar {
+    cursor: pointer
+}
+
+.newtabOfferPack {
+    margin-left: 4px;
+}
+
+#myUL2 li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  display: block
+}
+
+#myUL2 li a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#myUL2 li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* height: 741px; */
+    /*overflow-y: scroll;*/
+    /* min-height: 124px; */
+    max-height: 741px;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  display: block
+}
+
+#myUL li a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+.sbtopfilter .SumoSelect {
+    width: 100%;
+}
+
+.sbtopfilter .SumoSelect {
+    width: 100%;
+}
+
+.sbtopfilter .SumoSelect .optWrapper{
+      width: 254px;
+}
+
+
+
+#spinner {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#spinner li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  display: block
+}
+
+#spinner li a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#spinner li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+#sidebar-wrapper .chosen-drop {
+    width: 243px;
+}
+
+#myUL .resultsSearch {
+    padding: 0px;
+    text-align: left;
+    padding-left: 10px;
+    cursor: pointer;
+    color: grey; 
+    font-weight: lighter;
+}
+
+.objectfavorite {
+    width: 97%;
+    height: 320px;
+    background-color: #e8e8e8;
+    margin: 3%;
+    padding-left: 30px;
+}
+
+
+
+
+
+.globalnameDivObject {
+    font-size: 16px;
+    text-overflow: ellipsis;
+    width: 235px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.iconsDivObject2 {
+    width: 44px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+
+
+
+.popover {
+    overflow-wrap: break-word;
+    width: 170px;
+    text-align: center;
+}
+
+.offersDivObject {
+    margin-top: 11px;
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+.carriersDivObject {
+    margin-top: 11px;
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+.imgdots {
+    width: 25px;
+    height: 25px;
+}
+.spanCampaignsPopOver {
+    position: absolute;
+    right: 15%;
+    top: 112px;
+}
+
+.spanCarriersPopOver {
+    position: absolute;
+    right: 15%;
+    top: 160px;
+}
+
+.offerspanCss {
+    width: 121px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.njumpgeneratednameDivObject {
+    font-size: 20px;
+    font-weight: 900;
+    text-overflow: ellipsis;
+    /* width: 53%; */
+    max-width: 53%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    color: white;
+    margin-left: 28px;
+    margin-top: 8px;
+}
+
+.statusDivObject {
+    width: 20px;
+    height: 20px;
+    background-color: lime;
+    float: right;
+    margin-top: -12px;
+    margin-right: 29px;
+    border: 2px solid white;
+
+}
+
+
+
+.globalnameDivObject {
+    font-size: 13px;
+    text-overflow: ellipsis;
+    /* width: 76%; */
+    max-width: 76%;
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+    margin-left: 28px;
+    margin-top: -6px;
+}
+
+.offersDivObject {
+    margin-top: 21px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.iconsDivObject2 {
+    width: 44px;
+    margin-left: 8px;
+    cursor: pointer;
+    /* margin-top: 20px; */
+}
+.iconsDivObject3 {
+    width: 44px;
+    float: right;
+    margin-left: 8px;
+    cursor: pointer;
+    /* margin-top: 20px; */
+}
+
+div#rowButtonsEdits {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.divIconsObject {
+    position: absolute;
+    bottom: 1vw;
+    right: 31px;
+}
+
+
+.objectfavorite {
+    width: 97%;
+    height: 320px;
+    background-color: #e8e8e8;
+    margin: 3%;
+    border-radius: 11px;
+    padding-left: 30px;
+    border: 1px solid #707070;
+}
+
+.topDiv {
+    background-color: #4f4f4f;
+    margin-left: -15px;
+    width: 100%;
+    height: 66px;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+}
+
+.starObject {
+    width: 34px;
+    /* position: absolute; */
+    /* top: 1.3vw; */
+    /* right: 54px; */
+    cursor: pointer;
+    margin-left: -39px;
+    margin-top: -42px;
+}
+
+
+#spanNjump {
+      margin-left: 30px;
+    font-size: 19px;
+    font-weight: 700;
+}
+.modal-dialog {
+    width: 350px;
+    margin: 30px auto;
+}
+
+.modal-header {
+    border-bottom: 0px solid #e5e5e5; */
+}
+
+h4#myModalLabel {
+    font-weight: 700;
+}
+
+.modal-footer {
+    border: 0px;
+    text-align: center;
+}
+
+input#nameNewModal {
+    width: 100%;
+    padding-left: 7px;
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+    height: 38px;
+}
+
+.modal-footer {
+    padding-top: 0px;
+}
+
+#modalCreateNJump a.chosen-single.chosen-default {
+    height: 38px;
+}
+
+#modalCreateNJump a.chosen-single.chosen-default span {
+    padding-top: 8px;
+}
+
+#modalCreateNJump a.chosen-single.chosen-default div {
+    padding-top: 8px;
+}
+
+#okModalButtonSave {
+    padding: 9PX;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+#modalCreateNJump .chosen-single.chosen-single-with-deselect {
+    height: 38px;
+}
+
+#modalCreateNJump .chosen-single.chosen-single-with-deselect span {
+     padding-top: 8px;
+}
+
+#modalCreateNJump .chosen-single.chosen-single-with-deselect abbr {
+     margin-top: 8px;
+}
+
+
+#modalCreateNJump .chosen-single.chosen-single-with-deselect div {
+     padding-top: 8px;
+}
+
+
+#modalCloneNJump a.chosen-single.chosen-default {
+    height: 38px;
+}
+
+#modalCloneNJump a.chosen-single.chosen-default span {
+    padding-top: 8px;
+}
+
+#modalCloneNJump a.chosen-single.chosen-default div {
+    padding-top: 8px;
+}
+
+#okModalButtonClone {
+    padding: 9PX;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+#modalCloneNJump .chosen-single.chosen-single-with-deselect {
+    height: 38px;
+}
+
+#modalCloneNJump .chosen-single.chosen-single-with-deselect span {
+     padding-top: 8px;
+}
+
+#modalCloneNJump .chosen-single.chosen-single-with-deselect abbr {
+     margin-top: 8px;
+}
+
+
+#modalCloneNJump .chosen-single.chosen-single-with-deselect div {
+     padding-top: 8px;
+}
+
+.modal-dialog {
+  padding-top: 15%;
+}
+
+
+
+span#nameNjumpDelete {
+    font-size: 30px;
+    color: #cecece;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+span#nameNjumpDelete2 {
+    font-size: 30px;
+    color: #cecece;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+button#deleteModalCancel {
+    background-color: #313131;
+    color: white;
+}
+
+button#deleteLineModalCancel {
+    background-color: #313131;
+    color: white;
+}
+
+p#modalBodyTextDelete {
+    font-size: 25px;
+    /* font-weight: 700; */
+    text-align: center;
+}
+
+p#modalBodyTextDelete2 {
+    font-size: 25px;
+    /* font-weight: 700; */
+    text-align: center;
+}
+
+.buttonsModalDelete {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.statusDivObject .popover {
+    width: 83px;
+    font-size: 20px;
+    text-align: center;
+}
+
+div#rowTopWorst {
+    border-top: 1px solid #707070;
+    width: 99%;
+    margin-top: 16px;
+}
+
+.topWorst {
+    background-color: #707070;
+    width: 76px;
+    color: white;
+    margin: 10px;
+    font-weight: 800;
+    /* padding-left: 10px; */
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 0px;
+}
+
+.offersWorstTp {
+    width: 76%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.sectionWT {
+  display: -webkit-inline-box;
+  width: 70%;
+}
+
+.tablelasttoday {
+     border: 2px solid #707070;
+    margin: 5px;
+    width: 42%;
+}   
+
+table.tablelasttoday tr:first-child td {
+    background-color: #707070;
+    color: white;
+    font-size: 9px;
+    padding: 4px;
+    text-align: center;
+}
+
+table.tablelasttoday tr td {
+    font-size: 13px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+
+.col-lg-4.colTableLastToday {
+    width: 29%;
+}
+
+table.tablelasttoday {
+    border-collapse: collapse;
+    border-radius: 5px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px;
+    /* border: 1px solid #313131; */
+}
+
+table.tablelasttoday tr:first-child td {
+    background-color: #707070;
+    color: white;
+    font-size: 9px;
+    padding: 4px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.colTableLastToday2 {
+  display: -webkit-inline-box;
+  padding-left: 21px;
+}
+
+.colTableLastToday3 {
+  margin-top: 32px;
+  padding-left: 0px;
+}
+
+
+input#nameCloneModal {
+    width: 100%;
+    padding-left: 7px;
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+    height: 38px;
+}
+.statusDivObject .popover {
+    font-size: 13px;
+}
+
+a.resultsSearch.selected {
+    background-color: mediumseagreen;
+    color: white;
+}
+  
+.iconLiNjumps {
+    background-image: url(/img/njumppage/selected.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 13px);
+    background-size: 27px 60px;
+}
+
+#editNjumpTableTopRow {
+    background-color: #777;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 40px;
+    color: white;
+
+}
+.statusDivObject {
+    width: 20px;
+    height: 20px;
+    background-color: lime;
+    float: left;
+    margin-top: 10px;
+    margin-right: 29px;
+    border: 2px solid white;
+}
+
+.divsInfoRow {
+    margin-top: 10px;
+}
+
+div#selectsDomainsInfoRow_chosen .chosen-single {
+    background-color: transparent;
+    color: black;
+    box-shadow: 0 0 0px rgba(0,0,0,.3);
+}
+
+div#selectsDomainsInfoRow_chosen .chosen-search {
+  color: black;
+}
+
+.iconsDivObject3 {
+    width: 21px;
+    margin-left: 8px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+div.divsInfoRow .popover {
+    color: black;
+}
+
+img.iconsDivObject4 {
+    width: 21px;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+
+.row.rowsInfoNjump {
+    background-color: #EAEBEB;
+    position: relative;
+}
+
+.row.rowsInfoNjump2 {
+    background-color: #C4C4C4;
+    position: relative;
+}
+
+.borderleftInfoRow {
+    border-right: 1px solid #8b8b8b;
+    border-right-width: 1px;
+    /* padding-top: 21px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 21px;
+}
+
+.col-lg-11.bordertopInfoRow {
+    border-top: 1px solid #4f4f4f;
+}
+
+.textInfoRow {
+    padding-top: 20px;
+}
+
+.iconsInfoRow {
+    padding-top: 18px;
+}
+
+input.inputProportion {
+    border-radius: 5px;
+    box-shadow: none;
+    border-style: ridge;
+    width: 25%;
+    outline: 0px;
+    padding-left: 5px;
+    margin-left: -1px;
+    padding-bottom: 0px;
+}
+
+ul.chosen-choices {
+    border-radius: 5px;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.rotateAll {
+    float: left;
+    padding-top: 7px;
+    width: 26px;
+    cursor: pointer;
+}
+
+div#editNjumpTableTopRow .popover {
+    color: black;
+}
+
+
+.over {
+    transform:             rotate( -180deg );            
+        -moz-transform:    rotate( -180deg );            
+        -ms-transform:     rotate( -180deg );            
+        -o-transform:      rotate( -180deg );            
+        -webkit-transform: rotate( -180deg );            
+    transition:             transform 550ms ease;
+        -moz-transition:    -moz-transform 550ms ease;
+        -ms-transition:     -ms-transform 550ms ease;
+        -o-transition:      -o-transform 550ms ease;
+        -webkit-transition: -webkit-transform 550ms ease;
+}
+
+.out {
+    transform:             rotate( -360deg );            
+        -moz-transform:    rotate( -360deg );            
+        -ms-transform:     rotate( -360deg );            
+        -o-transform:      rotate( -360deg );            
+        -webkit-transform: rotate( -360deg );            
+    transition:             transform 550ms ease;
+        -moz-transition:    -moz-transform 550ms ease;
+        -ms-transition:     -ms-transform 550ms ease;
+        -o-transition:      -o-transform 550ms ease;
+        -webkit-transition: -webkit-transform 550ms ease;
+}
+
+.divExpandAll {
+    width: 31px;
+    height: 39px;
+    margin-left: 31px;
+}
+
+.bordertopInfoRow {
+    display: none;
+}
+
+.rowsSecondLine {
+    padding-bottom: 14px;
+    padding-top: 8px;
+    border-right: 1px solid #8b8b8b;
+    /*margin-top: 10px;*/
+    margin-bottom: 10px;
+}
+
+.classInfoLeft {
+    padding-top: 1px;
+    padding-bottom: 0px;
+    font-size: 77%;
+    text-align: center;
+    margin: auto;
+    padding-left: 12px;
+}
+.col1CenterVert {
+    /* min-height: 126px; */
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    /* line-height: normal; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: inherit; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+img.iconsDivObject7 {
+    width: 44px;
+    float: right;
+    margin-right: 2px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+#lastRowAddLine {
+  background-color: transparent;
+}
+
+
+
+input.inputLineName {
+    border-radius: 5px;
+    box-shadow: none;
+    border-style: ridge;
+    width: 90%;
+    outline: 0px;
+    padding-left: 5px;
+    margin-left: -1px;
+    padding-bottom: 0px;
+}
+
+
+.buttonsModalSave {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.SchedulewithIcon {
+    background-image: url(/img/njumppage/schedule_check.svg);
+    background-repeat: no-repeat;
+    padding-left: 39px;
+    background-position: 2px 0px;
+}
+
+#removeAllSch {
+    padding-bottom: 0px;
+    padding-left: 4px;
+    padding-right: 5px;
+    padding-top: 2px;
+    margin-bottom: 12px;
+}
+
+#myUL .resultsSearch {
+    padding: 0px;
+    text-align: left;
+    padding-left: 10px;
+    cursor: pointer;
+    color: grey;
+    font-weight: lighter;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* height: 741px; */
+    /*overflow-y: scroll;*/
+    /* min-height: 124px; */
+    max-height: 741px;
+}
+
+#myUL a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  display: block
+}
+
+#myUL a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#myUL a:hover:not(.header) {
+  background-color: #eee;
+}
+
+.firstroeClassInfoLeft {
+    /*border-bottom: 1px solid black;*/
+    margin-bottom: 3px;
+    margin-left: 0px;
+    margin-right: -1px;
+    line-height: 21px;
+}
+
+.percentInfoClass {
+    font-size: 23px;
+}
+
+.spanSmallClssInfo {
+    font-weight: 300;
+}
+p.pClassInfoLeft {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+div#njumpGaneratedName {
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 7px;
+    font-weight: 600;
+}
+
+
+.iconsDivObject50 {
+    margin-left: 45px;
+    margin-bottom: -1px;
+    width: 21px;
+    cursor: pointer;
+}
+
+img.iconsDivObject51 {
+    width: 30px;
+    margin-top: -4px;
+    margin-left: 10px;
+}
+
+div#lastRowAddLine {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.notifyjs-bootstrap-base.notifyjs-bootstrap-error {
+    font-size: 21px;
+}
+
+div#selectBoxSortBy_chosen {
+    width: 100%;
+    margin-top: -7px;
+    margin-bottom: 20px;
+}
+
+.iconsDivObject55 {
+    width: 29px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+
+.iconMultiCarriers {
+    width: 26px;
+    float: right;
+    margin-right: 42px;
+    margin-bottom: 1px;
+}
+
+.carriersInsidePopover {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+img.resetProportion {
+    width: 11px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.resultRows {
+    text-align: center;
+    font-size: 10px;
+    padding-top: -11px;
+    margin: 0px;
+}
+
+
+input.checkBoxSelectLine {
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    margin-right: 5px;
+}
+
+.buttonTopTable {
+    margin-bottom: -39px;
+    margin-left: -16px;
+    padding: 2px;
+}
+
+button#copytoSelectedModal {
+    margin-left: 0px;
+}
+
+span.spanMultipleLinesNames {
+    font-size: 15px;
+    color: #cecece;
+    width: 100%;
+    overflow-wrap: break-word;
+    font-weight: 700;
+}
+
+input.checkBoxSelectLine2 {
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    margin-left: -75px;
+    margin-top: 12px;
+}
+.rotateAll {
+    float: right;
+    padding-top: 8px;
+    width: 23px;
+    /* margin-left: -16px; */
+    cursor: pointer;
+    margin-top: -29px;
+    margin-right: 3px;
+}
+
+.statusDivObject {
+    width: 20px;
+    height: 20px;
+    background-color: lime;
+    float: left;
+    margin-top: 10px;
+    margin-right: 29px;
+    border: 2px solid white;
+    margin-left: 28px;
+}
+
+.divExpandAll {
+    width: 31px;
+    height: 39px;
+    margin-left: 54px;
+    margin-top: -29px;
+}
+
+
+.notifyjs-bootstrap-base.notifyjs-bootstrap-error {
+    font-size: 48px;
+    padding: 23px 30px;
+    /* padding-bottom: 0px; */
+}
+
+.notifyjs-bootstrap-error {
+    color: #B94A48;
+    background-color: #F2DEDE;
+    border-color: #EED3D7;
+    
+    background-size: 32px;
+    /* background-position: 5px 5px; */
+}
+
+
+
+.notifyjs-bootstrap-base.notifyjs-bootstrap-warn {
+    font-size: 30px;
+    padding: 23px 38px;
+    /* padding-bottom: 0px; */
+}
+
+.notifyjs-bootstrap-warn {
+    background-size: 32px;
+    /* background-position: 5px 5px; */
+}
+
+.notifyjs-bootstrap-base.notifyjs-bootstrap-success {
+    font-size: 30px;
+    padding: 23px 38px;
+    /* padding-bottom: 0px; */
+}
+
+.notifyjs-bootstrap-success {
+    background-size: 32px;
+    /* background-position: 5px 5px; */
+}
+
+.iconsDivObject99 {
+    width: 44px;
+    margin-left: 9px;
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+.disabled {
+    width: 44px;
+    margin-left: 9px;
+    cursor: not-allowed;
+    opacity: 0.4;
+}
+
+img.iconNewTab {
+    width: 19px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.iconsDivObject50 {
+    margin-left: 48px;
+    margin-bottom: -15px;
+    width: 21px;
+    cursor: pointer;
+}
+div#njumpContentName {
+    font-size: 19px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+div#njumpGaneratedName {
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 0px;
+    font-weight: 600;
+    margin-top: -4px;
+}
+
+img#copytoSelectedModal {
+    width: 23px;
+    height: 39px;
+    margin-left: 9px;
+    margin-top: -60px;
+}
+
+img#deleteSelectedModal {
+    width: 23px;
+    height: 39px;
+    margin-left: 91px;
+    margin-top: -60px;
+}
+
+img#periodIcon {
+    width: 29px;
+}
+
+img#periodIcon {
+    width: 29px;
+    margin-right: 10px;
+}
+
+.popover {
+    z-index: 10000;
+}
+
+.iconsInfoRow {
+    padding-top: 18px;
+    width: 13%;
+}
+
+.iconsDivObject50 {
+    margin-left: 20px;
+    cursor: pointer;
+	margin-top: -13px;
+}
+
+input.inputProportion {
+    border-radius: 5px;
+    box-shadow: none;
+    border-style: ridge;
+    width: 76%;
+    outline: 0px;
+    padding-left: 5px;
+    margin-left: -1px;
+    padding-bottom: 0px;
+}
+
+.marginFirstLine {
+    margin-right: 2%;
+}
+
+
+.col1CenterVert {
+    /* min-height: 126px; */
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    /* line-height: normal; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: inherit; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+.firstroeClassInfoLeft {
+    /* border-bottom: 1px solid black; */
+    margin-bottom: 3px;
+    margin-left: 0px;
+    margin-right: -1px;
+    line-height: 21px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.borderleftInfoRow2 {
+    margin-bottom: 0px;
+}
+
+.percentInfoClass {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.spanSmallClssInfo {
+    font-weight: 600;
+    font-size: 20px;
+    color: #747474;
+}
+
+.borderleftColumnClicksepc {
+    height: 100%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    border-left: 1px solid #8b8b8b;
+}
+
+.borderleftColumnPerc {
+    height: 100%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.borderleftColumnClicksepc2 {
+    height: 100%;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    border-left: 1px solid #8b8b8b;
+}
+
+.borderleftColumnPerc2 {
+    height: 100%;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+.borderleftInfoRow {
+    border-right: 1px solid #8b8b8b;
+    border-right-width: 1px;
+    /* padding-top: 21px; */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+span.pTitlesSb {
+    margin-right: 10px;
+}
+
+.buttonsTimeSs {
+    float: right;
+    margin-right: 6px;
+}
+
+.rowsSecondLine {
+    padding-bottom: 14px;
+    padding-top: 4px;
+    border-right: 1px solid #8b8b8b;
+    /* margin-top: 10px; */
+    margin-bottom: 6px;
+    padding-top: 4px;
+}
+
+.borderleftInfoRow.borderleftInfoRow2 {
+    margin-bottom: 0px;
+}
+
+.borderleftColumnClicksepc {
+    height: 100%;
+    padding-top: 6%;
+    padding-bottom: 4%;
+    border-left: 1px solid #8b8b8b;
+}
+
+.borderleftColumnClicksepc2 {
+    height: 100%;
+    padding-top: 12%;
+    padding-bottom: 9%;
+    margin-top: 5px;
+    border-left: 1px solid #8b8b8b;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+div#njumpGaneratedName {
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+div#njumpContentName {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.idnum{
+  font-weight: 900; 
+}
+
+.pTitlesSb{
+  font-weight: 900;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.chosen-container-multi .chosen-choices li.search-choice{
+  background: #e6e6e6;
+  font-family:'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.sorterTiles{
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+img.sortable {
+    width: 19px;
+    margin-left: 10px;
+}
+
+img.iconsDivObject2.deleteNjump {
+    width: 54px;
+    margin-right: 10px;
+    cursor: pointer;
+    float: right;
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+#newnjumpimg {
+    width: 54px;
+    margin-right: -10px;
+    cursor: pointer;
+    float: right;
+    /* border-right: 1px solid black; */
+    padding-right: 10px;
+}
+
+img#reloadSorter {
+    width: 25px;
+    margin-top: -60px;
+    margin-left: 11px;
+    cursor: pointer;
+}
+
+/*
+.rownInfo:nth-of-type(odd) {
+    background-color: #C4C4C4;
+}
+.rownInfo:nth-of-type(even){
+    background-color: #EAEBEB;
+}
+*/
+
+.rownInfo.odd {
+    background-color: #D6D6D6;
+}
+.rownInfo.even{
+    background-color: #EAEBEB;
+}
+.rownInfo {
+    border-bottom: 2px solid #ccc;
+}
+
+.divExpandAll {
+    width: 31px;
+    height: 39px;
+    margin-left: 54px;
+    cursor: pointer;
+    margin-top: -29px;
+}
+
+.borderSeparator {
+    /*border-top: 0.5px solid #6E6E6E;*/
+}
+
+.borderleftInfoRow {
+    border-right: 2px solid #ccc;
+    border-right-width: 2px;
+    /* padding-top: 21px; */
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.rowsSecondLine {
+    border-right: 2px solid #ccc;
+}
+
+.borderleftColumnClicksepc2 {
+    border-left: 2px solid #ccc;
+}
+
+.borderleftColumnClicksepc2 {
+    border-left: 2px solid #ccc;
+}
+
+.borderleftColumnClicksepc {
+    border-left: 2px solid #ccc;
+}
+
+.borderleftColumnClicksepc {
+    border-left: 2px solid #ccc;
+}
+
+/*
+.col-lg-3.col1CenterVert {
+    overflow: hidden;
+}
+*/
+
+.divExpandAll {
+    background-image: url(/img/njumppage/expand_all.svg);
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: 4px;
+}

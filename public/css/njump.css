@@ -1,0 +1,617 @@
+
+.containerf {
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/img/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#myUL2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* height: 741px; */
+    /*overflow-y: scroll;*/
+    /* min-height: 124px; */
+    max-height: 741px;
+}
+
+#myUL2 li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  display: block
+}
+
+#myUL2 li a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#myUL2 li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+#myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* height: 741px; */
+    /*overflow-y: scroll;*/
+    /* min-height: 124px; */
+    max-height: 741px;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  display: block
+}
+
+#myUL li a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+.sbtopfilter .SumoSelect {
+    width: 100%;
+}
+
+.sbtopfilter .SumoSelect {
+    width: 100%;
+}
+
+.sbtopfilter .SumoSelect .optWrapper{
+      width: 254px;
+}
+
+
+
+#spinner {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#spinner li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+  display: block
+}
+
+#spinner li a.header {
+  background-color: #e2e2e2;
+  cursor: default;
+}
+
+#spinner li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+
+#sidebar-wrapper .chosen-drop {
+    width: 243px;
+}
+
+#myUL .resultsSearch {
+    padding: 0px;
+    text-align: left;
+    padding-left: 10px;
+    cursor: pointer;
+    color: grey; 
+    font-weight: lighter;
+}
+
+.objectfavorite {
+    width: 97%;
+    height: 320px;
+    background-color: #e8e8e8;
+    margin: 3%;
+    padding-left: 30px;
+}
+
+
+
+
+
+.globalnameDivObject {
+    font-size: 16px;
+    text-overflow: ellipsis;
+    width: 235px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.iconsDivObject {
+    width: 47px;
+    float: right;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+
+
+
+.popover {
+    overflow-wrap: break-word;
+    width: 170px;
+    text-align: center;
+}
+
+.offersDivObject {
+    margin-top: 11px;
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+.carriersDivObject {
+    margin-top: 11px;
+    font-size: 13px;
+    margin-left: 30px;
+}
+
+.imgdots {
+    width: 25px;
+    height: 25px;
+}
+.spanCampaignsPopOver {
+    position: absolute;
+    right: 15%;
+    top: 112px;
+}
+
+.spanCarriersPopOver {
+    position: absolute;
+    right: 15%;
+    top: 160px;
+}
+
+.offerspanCss {
+    width: 121px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.njumpgeneratednameDivObject {
+    font-size: 20px;
+    font-weight: 900;
+    text-overflow: ellipsis;
+    /* width: 53%; */
+    max-width: 53%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    color: white;
+    margin-left: 28px;
+    margin-top: 8px;
+}
+
+.statusDivObject {
+    width: 20px;
+    height: 20px;
+    background-color: lime;
+    float: right;
+    margin-top: -12px;
+    margin-right: 29px;
+    border: 2px solid white;
+
+}
+
+
+
+.globalnameDivObject {
+    font-size: 13px;
+    text-overflow: ellipsis;
+    /* width: 76%; */
+    max-width: 76%;
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+    margin-left: 28px;
+    margin-top: -6px;
+}
+
+.offersDivObject {
+    margin-top: 21px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.iconsDivObject {
+    width: 31px;
+    float: right;
+    margin-left: 8px;
+    cursor: pointer;
+    /* margin-top: 20px; */
+}
+
+.divIconsObject {
+    position: absolute;
+    bottom: 1vw;
+    right: 31px;
+}
+
+
+.objectfavorite {
+    width: 97%;
+    height: 320px;
+    background-color: #e8e8e8;
+    margin: 3%;
+    border-radius: 11px;
+    padding-left: 30px;
+    border: 1px solid #707070;
+}
+
+.topDiv {
+    background-color: #4f4f4f;
+    margin-left: -15px;
+    width: 100%;
+    height: 66px;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+}
+
+.starObject {
+    width: 34px;
+    /* position: absolute; */
+    /* top: 1.3vw; */
+    /* right: 54px; */
+    cursor: pointer;
+    margin-left: -39px;
+    margin-top: -42px;
+}
+
+#newnjumpimg {
+    width: 44px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#spanNjump {
+      margin-left: 30px;
+    font-size: 19px;
+    font-weight: 700;
+}
+.modal-dialog {
+    width: 350px;
+    margin: 30px auto;
+}
+
+.modal-header {
+    border-bottom: 0px solid #e5e5e5; */
+}
+
+h4#myModalLabel {
+    font-weight: 700;
+}
+
+.modal-footer {
+    border: 0px;
+    text-align: center;
+}
+
+input#nameNewModal {
+    width: 100%;
+    padding-left: 7px;
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+    height: 38px;
+}
+
+.modal-footer {
+    padding-top: 0px;
+}
+
+#modalCreateNJump a.chosen-single.chosen-default {
+    height: 38px;
+}
+
+#modalCreateNJump a.chosen-single.chosen-default span {
+    padding-top: 8px;
+}
+
+#modalCreateNJump a.chosen-single.chosen-default div {
+    padding-top: 8px;
+}
+
+#okModalButtonSave {
+    padding: 9PX;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+#modalCreateNJump .chosen-single.chosen-single-with-deselect {
+    height: 38px;
+}
+
+#modalCreateNJump .chosen-single.chosen-single-with-deselect span {
+     padding-top: 8px;
+}
+
+#modalCreateNJump .chosen-single.chosen-single-with-deselect abbr {
+     margin-top: 8px;
+}
+
+
+#modalCreateNJump .chosen-single.chosen-single-with-deselect div {
+     padding-top: 8px;
+}
+
+
+#modalCloneNJump a.chosen-single.chosen-default {
+    height: 38px;
+}
+
+#modalCloneNJump a.chosen-single.chosen-default span {
+    padding-top: 8px;
+}
+
+#modalCloneNJump a.chosen-single.chosen-default div {
+    padding-top: 8px;
+}
+
+#okModalButtonClone {
+    padding: 9PX;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+#modalCloneNJump .chosen-single.chosen-single-with-deselect {
+    height: 38px;
+}
+
+#modalCloneNJump .chosen-single.chosen-single-with-deselect span {
+     padding-top: 8px;
+}
+
+#modalCloneNJump .chosen-single.chosen-single-with-deselect abbr {
+     margin-top: 8px;
+}
+
+
+#modalCloneNJump .chosen-single.chosen-single-with-deselect div {
+     padding-top: 8px;
+}
+
+.modal-dialog {
+  padding-top: 15%;
+}
+
+p#modalBodyTextDelete {
+    font-size: 29px;
+    text-align: center;
+}
+
+span#nameNjumpDelete {
+    font-size: 30px;
+    color: #cecece;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+button#deleteModalCancel {
+    background-color: #313131;
+    color: white;
+}
+
+p#modalBodyTextDelete {
+    font-size: 25px;
+    /* font-weight: 700; */
+    text-align: center;
+}
+
+.buttonsModalDelete {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.statusDivObject .popover {
+    width: 83px;
+    font-size: 20px;
+    text-align: center;
+}
+
+div#rowTopWorst {
+    border-top: 1px solid #707070;
+    width: 99%;
+    margin-top: 16px;
+}
+
+.topWorst {
+    background-color: #707070;
+    width: 76px;
+    color: white;
+    margin: 10px;
+    font-weight: 800;
+    /* padding-left: 10px; */
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 0px;
+}
+
+.offersWorstTp {
+    width: 76%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.sectionWT {
+  display: -webkit-inline-box;
+  width: 70%;
+}
+
+.tablelasttoday {
+     border: 2px solid #707070;
+    margin: 5px;
+    width: 42%;
+}   
+
+table.tablelasttoday tr:first-child td {
+    background-color: #707070;
+    color: white;
+    font-size: 9px;
+    padding: 4px;
+    text-align: center;
+}
+
+table.tablelasttoday tr td {
+    font-size: 13px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+
+.col-lg-4.colTableLastToday {
+    width: 29%;
+}
+
+table.tablelasttoday {
+    border-collapse: collapse;
+    border-radius: 5px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px;
+    /* border: 1px solid #313131; */
+}
+
+table.tablelasttoday tr:first-child td {
+    background-color: #707070;
+    color: white;
+    font-size: 9px;
+    padding: 4px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.colTableLastToday2 {
+  display: -webkit-inline-box;
+  padding-left: 21px;
+}
+
+.colTableLastToday3 {
+  margin-top: 32px;
+  padding-left: 0px;
+}
+
+
+input#nameCloneModal {
+    width: 100%;
+    padding-left: 7px;
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+    height: 38px;
+}
+.statusDivObject .popover {
+    font-size: 13px;
+}
+
+a.resultsSearch.selected {
+    background-color: mediumseagreen;
+    color: white;
+}
+
+.iconLiNjumps {
+    background-image: url(/img/njumppage/selected.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 13px);
+    background-size: 27px 60px;
+}
+
+
+
+
+
+
+#modalCreateNJump a.chosen-single.chosen-default {
+    height: 38px;
+}
+
+#modalCreateNJump a.chosen-single.chosen-default span {
+    padding-top: 8px;
+}
+
+#modalCreateNJump a.chosen-single.chosen-default div {
+    padding-top: 8px;
+}
+
+#modalCreateNJump .chosen-single.chosen-single-with-deselect {
+    height: 38px;
+}
+
+#modalCreateNJump .chosen-single.chosen-single-with-deselect span {
+     padding-top: 8px;
+}
+
+#modalCreateNJump .chosen-single.chosen-single-with-deselect abbr {
+     margin-top: 8px;
+}
+
+
+#modalCreateNJump .chosen-single.chosen-single-with-deselect div {
+     padding-top: 8px;
+}
+
+
+.divIconsObject2 {
+    position: absolute;
+    bottom: 1vw;
+    left: 37px;
+}
+
+.iconNotClickable {
+  cursor: default;
+}
+
+.resultRows {
+    text-align: center;
+    font-size: 10px;
+    padding-top: -11px;
+    margin: 0px;
+}
+img#copytoSelectedModal {
+    margin-left: 5px;
+}

@@ -1,0 +1,497 @@
+/*  ----------------------------------------------------------------------------------------------------- Laptop: 1440px; ---  */
+
+body * {
+    font-family:'Roboto';
+}
+
+.roboto-condensed {
+    font-family: 'Roboto Condensed';
+}
+
+a { color: inherit; } 
+
+a:hover { color:inherit; text-decoration: none; }
+
+.inline-block {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.w-700 {
+    font-weight: 700;
+}
+
+.float-left {
+    float: left;
+}
+
+.nopad-r { 
+    padding-right: 15px;
+    padding-left:0;
+    margin-top: 6px;
+}
+
+.padd-l-0 { padding-left: 0; }
+.marg-l-0 { margin-left:0; }
+.marg-b { margin-bottom : 10px; }
+.marg-r { margin-right : 10px; }
+.marg-l { margin-left : 10px; }
+.marg-t { margin-top : 10px; }
+.v-top { vertical-align: top; }
+.padd-0 { padding:0; }
+.line-h-48 { line-height: 48px; }
+.marg-l-55 { margin-left:55px; }
+
+
+.separator {
+    margin-top: 20px;
+    margin-bottom:20px;
+    border-top:1px solid #666;
+}
+
+/**FILE UPLOAD BUTTON**/
+
+/** 
+
+input[type="file"] {
+    display: none;
+}
+
+.io-button {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #00ffaa;
+    color: #2c06eb !important;
+    transition: all 0.2s linear;
+    border-radius: 0.5vw;
+}
+
+.io-button:hover {
+    color:#00ffaa !important;
+    background: #2c06eb;
+    transition: all 0.2s linear;
+}
+
+**/
+
+/***********************/
+
+.row-client {
+    width:750px;
+    margin:15px auto;
+}
+
+.id-container {
+    background:#666;
+    color:white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+}
+
+.right-container {
+    height:auto;
+}
+
+/****/
+.graphic-container {
+    width:100%;
+    height:auto;
+    margin:20px 0;
+}
+
+.pink {
+    background: pink;
+    height:100%;
+}
+
+.filter-option { color:#999 !important; }
+
+
+.btn .caret { color:#999 !important; }
+
+/****/
+
+.back {
+    position: relative;
+    z-index:-1;
+}
+
+.toprow{
+    margin-top: 1.5vw;
+    padding: 5px 8px; 
+    background-color: #4f4f4f;
+    border-top-left-radius: 0.5vw;
+    border-top-right-radius: 0.5vw;
+    color: white;
+    font-size: 11px;
+    
+}
+
+.textrow{
+	text-align: center;
+}
+
+.container2{
+	width: 100%;
+}
+
+.container-client { 
+    width:970px; 
+    margin:0 auto; 
+}
+
+/**select container border**/
+
+.device {
+    color:#999;
+}
+
+.col-md-4 p:after {
+    content:' ';
+    display:block;
+    border:1px solid black;
+    line-height: 50px;
+}
+
+.select-border {
+    border:1px solid #dadada;
+}
+
+.col-md-6, .nopad{
+	margin-top: 0.5vw;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.searchbar{
+    margin-top: 0.4vw;
+    padding: 0.3vw 0.3vw 0.3vw 0.3vw;
+    background-position: 0.5vw 0.5vw;
+    background-repeat: no-repeat;
+    border-radius: 0.3vw;
+    font-size: 1vw;
+    color: #555;
+    border:1px solid #ccc;
+    background-color:#EBEBEB;
+}
+
+.sb1{
+    width: 100%;
+    margin-bottom: 1.5vw;
+}
+
+.sb2{
+    width: 100%;
+}
+
+.items{
+    font-size: 10px;
+}
+
+.stitle {
+    width: 100%;
+    border-radius: 0.5vw 0vw 0vw 0.5vw;
+    padding: 9px 8px;
+    background-color: #666;
+    color: white;
+    font-size: 11px;
+}
+
+.select-style{
+    border: 1px solid #4f4f4f;
+    width: 100%;
+    border-radius: 0vw 0.5vw 0.5vw 0vw;
+    overflow: hidden;
+    background: #fafafa url("http://mobisteinlp.com/adminproject1/images/drop.png") no-repeat 90% 50%;
+    background-repeat: no-repeat;
+    font-size: 11px;
+
+}
+
+.select-style select {
+    padding: 7px 8px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-image: none;
+    cursor: pointer;
+    height:28px; 
+    font-size: 11px;
+}
+
+select:focus {
+    outline: none;
+}
+
+
+.ititle{
+    line-height: 10px;
+    border: 1px solid #4f4f4f;
+    width: 100%;
+    border-radius: 0.5vw 0vw 0vw 0.5vw;
+    padding: 6px 1px;
+    height: 33px;
+    background-color: #666;
+    color: white;
+    font-size: 11px;
+    position: relative;
+    z-index:2;
+    font-family: 'Roboto Condensed';
+}
+
+.line-h-20 { line-height:20px; }
+
+.ititle-geos{
+    margin-top: 20px;
+    border: 1px solid #4f4f4f;
+    width: 100%;
+    border-radius: 0.5vw 0.5vw 0.5vw 0.5vw;
+    padding: 8px 1px;
+    height: 34px;
+    background-color: #4f4f4f;
+    color: white;
+    font-size: 11px;
+    position: relative;
+    z-index:1;
+}
+
+.input-style{
+    border: 1px solid #4f4f4f;
+    width: 100%;
+    height: 30px;
+    border-radius: 0vw 0.5vw 0.5vw 0vw;
+    overflow: hidden;
+    background: #fafafa;
+    font-size: 12px;
+
+}
+
+.input-style input {
+    margin-left: 0.5vw;
+    width: 100%;
+    height: 30px;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.nselect-style{
+    border: 1px solid #4f4f4f;
+    width: 100%;
+    height: 30px;
+    padding:7px 1px;
+    border-radius: 0vw 0.5vw 0.5vw 0vw;
+    overflow: hidden;
+    background: #fafafa url("http://mobisteinlp.com/adminproject1/images/drop.png") no-repeat 90% 50%;
+    background-repeat: no-repeat;
+    font-size: 12px;
+
+}
+
+.nselect-style select { 
+    margin-left: 5px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    color:grey; 
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+.sspace1{
+    margin: 0.5vw 0vw 0vw 1vw;
+}
+
+.sspace2{
+    margin-top: 0.5vw;
+}
+
+.filter{
+    margin-top: 2vw;
+    padding: 5px 8px; 
+    background-color: #666;
+    border: none;
+    border-radius: 0.5vw;
+    color: white;
+    width: 100%;
+}
+
+.filter button{
+
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 100%;
+}
+
+.clear{
+	margin-top: 0vw;
+	background-color: red;
+}
+
+/* Lines */
+.even{
+    background: #D6D6D6 !important;
+    padding: 5px 8px;
+}
+
+.odd{
+    background: #EBEBEB !important;
+    padding: 5px 8px;
+}
+
+table.dataTable.cell-border tbody th, table.dataTable.cell-border tbody td {
+    border:1px solid #95989A;
+}
+
+/* New Client Button */
+
+#newC{
+    background: transparent;
+    border: none;
+    width: 31px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#newC-label{
+    margin-top: 1vw; 
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.prevnext_btns{
+    border: none;
+    background-color: #4f4f4f;
+    color: white;
+    padding: 0.5vw 1vw;
+}
+
+.round_p{
+    border-radius: 0.5vw 0vw 0vw 0.5vw; 
+}
+
+.round_n{
+    border-radius: 0vw 0.5vw 0.5vw 0vw; 
+}
+
+.ok{
+    margin-top:2vw;
+    padding: 10px;
+    width:100%;
+    border: none;
+    border-radius:0.5vw;
+    font-size: 1.5vw;
+    font-weight: 800;  
+    color: white;
+    background-color: #0BAA4B;
+    transition: all 0.2s linear;
+}
+
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width:100%;
+}
+
+.form-control {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    height: 33.5px;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    padding:6px !important;
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.dataTables_paginate {
+    border: 1px solid #95989A;
+    border-radius: 7px;
+    margin-top: 3px;
+    padding:0 !important;
+    background: #EBEBEB;
+}
+
+.paginate_button.previous {
+    border-right: 1px solid #95989A !important;
+    margin-left: 0 !important;
+}
+
+.paginate_button.current {
+    margin-left: 0;
+    border: none !important;
+    background: #EBEBEB !important;
+    border-right: 1px solid #979797 !important;
+    margin-left: 0 !important;
+}
+
+.paginate_button.next {
+    border-left: 1px solid #95989A;
+    margin-left: 0 !important;
+}
+
+
+
+/******/
+
+.head-color {
+    background-color: #666;
+    color: white;
+    border-top-right-radius:1em;
+    border-top-left-radius:1em;
+    font-family: 'Roboto Condensed';
+    font-weight:700;
+}
+
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
+    background-color: #EBEBEB !important;
+}
+
+/*******/
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 0.3vw;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #eaeaea; 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #999; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #999; 
+}
+

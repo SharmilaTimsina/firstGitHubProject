@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Mobistein</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="http://mobisteinreport.com/public/img/favicon.ico"/>
+
+        <style>
+            body {
+                padding-top: 100px;
+                padding-bottom: 20px;
+            }
+        </style>
+
+        <link rel="stylesheet" href="http://mobisteinreport.com/public/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://mobisteinreport.com/public/css/font-awesome.css">
+        <link rel="stylesheet" href="http://mobisteinreport.com/public/css/custom-sky-forms.css">
+        
+        <link rel="stylesheet" href="http://mobisteinreport.com/public/css/main.css">
+
+        <script src="http://mobisteinreport.com/public/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="http://mobisteinreport.como/public/css/sky-forms-ie8.css">
+        <![endif]-->
+    </head>
+
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+     
+<!-- MODAL MODAL -->
+
+<!-- Modal -->
+<div class="modal fade" id="nlinem" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">
+                    New Njump Line
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form id="nlinef" class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label  class="col-sm-2 control-label"
+                              for="lurl">Url</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="nlurl" class="form-control" 
+                         placeholder="Jump or Mjump Link"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label"
+                          for="lname" >Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control"
+                            name="nlname" placeholder="Page Name"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                     <label class="col-sm-2 control-label"
+                          for="lop" >Operator</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control"
+                            name="nlop" placeholder="Operator"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                     <label class="col-sm-2 control-label"
+                          for="lisp" >Isp</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control"
+                            name="nlisp" placeholder="Isp"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                     <label class="col-sm-2 control-label"
+                          for="lper" >Percentage</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control"
+                            name="nlper" placeholder="Percentage"/>
+                    </div>
+                  </div>
+                </form>
+                
+                
+                
+                
+                
+                
+            </div>
+            
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                            Close
+                </button>
+                <button  id="nlines" type="button" class="btn btn-primary">
+                    Save changes
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--//////////////////////////////////////////////////////////////-->
+
+<!-- Modal -->
+<div class="modal fade" id="nnamem" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">
+                    Name Alteration
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form id="nnamef" class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label  class="col-sm-2 control-label"
+                              for="nname">New Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" 
+                        id="nname" name="nname" placeholder="New Name"/>
+                    </div>
+                  </div>
+                </form>
+                
+            </div>
+            
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                            Close
+                </button>
+                <button id="nnameb" type="button" class="btn btn-primary">
+                    Save changes
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--//////////////////////////////////////////////////////////////-->
+
+<!-- Modal -->
+<div class="modal fade" id="clonem" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">
+                    Clone
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form id="clonef" class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label  class="col-sm-2 control-label"
+                              for="clonen">Clone Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" 
+                        id="clonen" name="clonen" placeholder="Clone Name"/>
+                    </div>
+                  </div>
+                </form>
+                
+            </div>
+            
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                            Close
+                </button>
+                <button id="cloneb" type="button" class="btn btn-primary">
+                    Save changes
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--//////////////////////////////////////////////////////////////-->
+
+<!-- Modal -->
+<div class="modal fade" id="delm" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">
+                    Clone
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form id="delf" class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label  class="col-sm-2 control-label"
+                              for="clonen">Warning:</label>
+                   <label  class="col-sm-10 control-label"
+                              for="clonen"> Are you sure you want to delete this njump? </label>
+                  </div>
+                </form>
+                
+            </div>
+            
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                            Close
+                </button>
+                <button id="delb" type="button" class="btn btn-primary">
+                    Save changes
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--//////////////////////////////////////////////////////////////-->
+
+<!-- Modal -->
+<div class="modal fade" id="nnjm" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title">
+                    New Njump
+                </h4>
+                
+                                <!--/////ERRRORRRRRWARNING/////-->
+                    <div id="ew" class="alert alert-danger" role="alert" style="display:none;margin-top:10px">
+                        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                        <span class="sr-only">Error:</span>
+                       
+                    </div>
+
+
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form id="nnjf" class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <label  class="col-sm-2 control-label"
+                              for="ngroup">Group Name</label>
+                     
+    
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" 
+                        id="ngroup" name="ngroup" placeholder="Group Name"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label  class="col-sm-2 control-label"
+                              for="nlurl">Url</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" 
+                        id="nlurl" name="nlurl" placeholder="Jump or Mjump Link"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label"
+                          for="nlname" >Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control"
+                            id="nlname" name="nlname" placeholder="Page Name"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                     <label class="col-sm-2 control-label"
+                          for="nlop" >Operator</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control"
+                            id="nlop" name="nlop" placeholder="Operator"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                     <label class="col-sm-2 control-label"
+                          for="nlisp" >Isp</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control"
+                            id="nlisp" name="nlisp" placeholder="Isp"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                     <label class="col-sm-2 control-label"
+                          for="nlper" >Percentage</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control"
+                            id="nlper" name="nlper" placeholder="Percentage"/>
+                    </div>
+                  </div>
+                </form>           
+            </div>
+            
+            <!-- Modal Footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">
+                            Close
+                </button>
+                <button id="nnjs" type="button" class="btn btn-primary">
+                    Save changes
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--END MODAL -->
+
+
+
+
+
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <div id="sleeper">&nbsp;</div>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://mobisteinreport.com">
+              <img src="http://mobisteinreport.com/public/img/logo.png" alt="">
+              <span class="beta blue">Beta</span>
+          </a>
+        </div>
+        <div class="navbar-collapse collapse">
+             <ul class="nav navbar-nav navbar-right">
+                <li><a href="{{ url.getBaseUri() }}report">Reports</a></li> 
+                <li><a href="{{ url.getBaseUri() }}operation/index">Operations</a></li>
+                <li><a href="{{ url.getBaseUri() }}slink/index">Njumps</a></li> 
+                <li><a href="{{ url.getBaseUri() }}session/end">Logout</a></li>
+             </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+    <div id="wrap">
+        <div class="container">
+            <div class="row">
+             <div class="col-md-14"> 
+                <div class="col-md-3">
+                   <select id="gcombo" size="25"> 
+                    <?php echo $group_list ?>
+                   </select> 
+                   <h3> <button id="nnj" type="button" class="btn btn-primary"  data-toggle="modal" data-target="#nnjm">New</button></h3>
+                 </div>
+                 
+                 <div class="col-md-8">
+                     <div class="panel-heading">
+                        <h3 class="panel-title">Smart Links</h3>
+                        <h3>
+                            <button id="newl" type="button" class="btn btn-primary" data-toggle="modal" data-target="#nlinem">New Line</button>
+                            <button id="newn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#nnamem">Alter Name</button>
+                            <button id="newc" type="button" class="btn btn-success" data-toggle="modal" data-target="#clonem">Clone</button>
+                            <button id="ndel" type="button" class="btn btn-danger"  data-toggle="modal" data-target="#delm">Delete</button>
+                             
+                        </h3>
+                        </div>
+                        <div id="mtable" class="panel-body">
+                            &nbsp;
+                            
+                    </div>    
+                 </div>
+                 
+<!--                <div class="col-md-3 col-md-offset-1">
+                    exform
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">Copyright &copy; 2015 Mobistein. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+   
+    </footer>  
+    </div>
+    <!-- // <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+    <script>window.jQuery || document.write('<script src="http://mobisteinreport.com/public/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+    <script src="http://mobisteinreport.com/public/js/vendor/bootstrap.min.js"></script>
+    <script src="http://mobisteinreport.com/public/plugin/sky-forms/js/jquery-ui.min.js"></script>
+        
+    <script src="http://mobisteinreport.com/public/js/slink/main.js"></script>
+    <script type="text/javascript">        
+        </script>
+        <!--[if lt IE 10]>
+            <script src="http://mobisteinreport.com/public/plugin/sky-forms/js/jquery.placeholder.min.js"></script>
+        <![endif]-->        
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+            <script src="http://mobisteinreport.com/public/plugin/sky-forms/js/sky-forms-ie8.js"></script>
+        <![endif]-->
+    </body>
+</html>
